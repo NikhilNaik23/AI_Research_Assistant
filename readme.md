@@ -175,18 +175,6 @@ The image folder contains the main workflow screenshots in the following order:
 
 These screenshots represent the primary research workflow screens from the dashboard through the conversation, document, research, and report views.
 
-## Suggested Documentation Sections
-
-The project should eventually include:
-
-- Setup instructions for local development
-- Environment variable examples
-- MongoDB configuration instructions
-- LLM provider configuration
-- Vector store configuration
-- Web search configuration
-- Authentication and security guidelines
-- Deployment guide for production environments
 
 ## Summary
 
