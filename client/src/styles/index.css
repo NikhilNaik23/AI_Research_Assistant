@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background-color: theme("colors.gold.light");
+  }
+  :focus-visible {
+    outline: 2px solid theme("colors.pine.DEFAULT");
+    outline-offset: 2px;
+  }
+  h1, h2, h3 {
+    font-family: theme("fontFamily.serif");
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: theme("colors.line"); border-radius: 4px; }
+}
